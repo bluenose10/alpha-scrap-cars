@@ -37,6 +37,8 @@ const Footer: React.FC = () => {
               <Link to="/contact" className="hover:text-brand-red-600 transition-colors">Contact</Link>
               <Link to="/terms" className="hover:text-brand-red-600 transition-colors">Terms</Link>
               <Link to="/privacy" className="hover:text-brand-red-600 transition-colors">Privacy</Link>
+              <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red-600 transition-colors">Sitemap</a>
+              <a href="https://share.google/O6plhiM6b7lKAy1ib" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red-600 transition-colors">Google Business</a>
             </div>
           </div>
           

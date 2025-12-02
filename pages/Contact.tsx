@@ -130,15 +130,6 @@ const Contact: React.FC = () => {
                                     <p className="text-xs text-gray-500 mt-1">Serving all surrounding areas</p>
                                 </div>
                             </li>
-                            <li className="flex items-start rounded-2xl border-2 border-brand-red-600/30/70 p-4 bg-gray-50/80">
-                                <svg className="w-6 h-6 mr-3 text-brand-red-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                                <div>
-                                    <h3 className="font-semibold text-brand-darker">Hours</h3>
-                                    <p className="text-gray-600">24 Hours a Day</p>
-                                    <p className="text-gray-600">7 Days a Week</p>
-                                    <p className="text-gray-600">365 Days a Year</p>
-                                </div>
-                            </li>
                          </ul>
                     </div>
                 </div>
