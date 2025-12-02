@@ -133,8 +133,8 @@ const Home: React.FC = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20 text-center z-10 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-brand-red-600 uppercase leading-tight tracking-wide animate-fade-in-up">
               Alpha Recovery
-              <span className="block text-2xl md:text-3xl font-semibold text-brand-red-600 tracking-normal mt-4">
-                Vehicle Breakdown Recovery Southport 
+              <span className="block text-2xl md:text-3xl font-semibold text-white tracking-normal mt-4">
+                Vehicle Breakdown Recovery Southport
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-200 animate-fade-in-up [animation-delay:0.12s]">
