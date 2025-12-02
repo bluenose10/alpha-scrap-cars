@@ -125,7 +125,7 @@ const Home: React.FC = () => {
           src={heroBackground}
           alt="cars-breakdown-recovery-services-southport"
           className="absolute inset-0 w-full h-full object-cover opacity-35"
-          fetchpriority="high"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-brand-darker/80 via-brand-dark/55 to-black/65"></div>
         <div className="pointer-events-none absolute -top-24 -right-16 h-96 w-96 rounded-full bg-brand-red-600/25 blur-[140px] animate-float"></div>
@@ -134,7 +134,7 @@ const Home: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-brand-red-600 uppercase leading-tight tracking-wide animate-fade-in-up">
               Alpha Recoveries
               <span className="block text-2xl md:text-3xl font-semibold text-brand-red-600 tracking-normal mt-4">
-                Vehicle Breakdown Recovery Southport
+                Vehicle Breakdown Recovery Southport 
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-200 animate-fade-in-up [animation-delay:0.12s]">
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
             </p>
             <div className="mt-6 flex justify-center items-center gap-4 flex-wrap animate-fade-in-up [animation-delay:0.24s]">
               <Link to="/contact" className="group bg-gradient-to-r from-brand-red-600 via-[#ff6a00] to-brand-red-700 text-white font-bold py-3.5 px-10 rounded-full transition-all duration-300 text-lg shadow-[0_20px_45px_rgba(239,0,0,0.35)] hover:shadow-[0_25px_60px_rgba(239,0,0,0.45)] hover:-translate-y-1">
-                Get Your Free Quote 
+                Get Your Free Quote
               </Link>
                <Link to="/services" className="rounded-full border border-white/30 text-white/90 font-semibold py-3.5 px-10 transition-all duration-300 text-lg hover:text-white hover:border-white hover:-translate-y-1 hover:bg-white/10 backdrop-blur">
                 View Our Services
@@ -286,6 +286,8 @@ const Home: React.FC = () => {
                     alt={image.alt}
                     width="400"
                     height="300"
+                    loading="lazy"
+                    decoding="async"
                     className="rounded-2xl shadow-2xl shadow-gray-900/40 aspect-[4/3] object-cover w-full transition-transform duration-500 hover:-translate-y-2 hover:scale-[1.02]"
                     style={{ animationDelay: `${index * 0.1}s` }}
                   />
