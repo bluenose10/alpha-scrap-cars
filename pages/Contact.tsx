@@ -63,6 +63,7 @@ const Contact: React.FC = () => {
                         */}
                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
   <input type="hidden" name="form-name" value="contact" />
+  <input type="hidden" name="bot-field" />
   <input type="text" name="name" />
   <input type="email" name="email" />
   <input type="tel" name="phone" />
@@ -70,9 +71,10 @@ const Contact: React.FC = () => {
 </form>
                         
                         {/* This is the visible form the user interacts with */}
-                        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="space-y-5">
+                        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-5">
 
                             <input type="hidden" name="form-name" value="contact" />
+                            <input type="hidden" name="bot-field" />
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">Full Name</label>
                                 <input type="text" name="name" id="name" required value={formData.name} onChange={handleChange} className={inputStyles} />
