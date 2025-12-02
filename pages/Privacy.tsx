@@ -61,7 +61,7 @@ const Privacy: React.FC = () => {
 
               <div>
                 <h2 className="text-2xl font-bold text-brand-darker mb-4">8. Contact Us</h2>
-                <p className="text-gray-600 leading-relaxed">If you have any questions about this privacy policy, please contact us at info@alpharecovery.co.uk.</p>
+                <p className="text-gray-600 leading-relaxed">If you have any questions about this privacy policy, please contact us at philpye@hotmail.co.uk.</p>
               </div>
             </div>
           </div>
