@@ -124,7 +124,7 @@ const Home: React.FC = () => {
         <img
           src={heroBackground}
           alt="cars-breakdown-recovery-services-southport"
-          className="absolute inset-0 w-full h-full object-cover opacity-35"
+          className="absolute inset-0 w-full h-full object-cover opacity-50"
           fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-brand-darker/80 via-brand-dark/55 to-black/65"></div>
