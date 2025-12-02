@@ -132,7 +132,7 @@ const Home: React.FC = () => {
         <div className="pointer-events-none absolute -bottom-16 -left-10 h-72 w-72 rounded-full bg-brand-red-500/20 blur-[120px] animate-pulse-glow"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20 text-center z-10 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-brand-red-600 uppercase leading-tight tracking-wide animate-fade-in-up">
-              Alpha Recoveries
+              Alpha Recovery
               <span className="block text-2xl md:text-3xl font-semibold text-brand-red-600 tracking-normal mt-4">
                 Vehicle Breakdown Recovery Southport 
               </span>
