@@ -229,6 +229,50 @@ const Home: React.FC = () => {
                 <p className="text-gray-600 text-sm text-center">We work directly with insurance companies to coordinate repairs or salvage collection.</p>
                </div>
             </div>
+            {/* Service Item */}
+            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
+               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+               <div className="relative">
+                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                </div>
+                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">Off-Road Accident Recovery</h3>
+                <p className="text-gray-600 text-sm text-center">Specialized recovery for off-road accidents with professional vehicle handling and insurance coordination.</p>
+               </div>
+            </div>
+            {/* Service Item */}
+            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
+               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+               <div className="relative">
+                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" /></svg>
+                </div>
+                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">24-Hour Locksmith Service</h3>
+                <p className="text-gray-600 text-sm text-center">Emergency vehicle locksmith services available 24/7 with quick response times across the region.</p>
+               </div>
+            </div>
+            {/* Service Item */}
+            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
+               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+               <div className="relative">
+                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+                </div>
+                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">Classic/Vintage Car Transport</h3>
+                <p className="text-gray-600 text-sm text-center">Specialized transportation for classic and vintage vehicles with expert handling and care.</p>
+               </div>
+            </div>
+            {/* Service Item */}
+            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
+               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+               <div className="relative">
+                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
+                </div>
+                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">A & B Road Recovery</h3>
+                <p className="text-gray-600 text-sm text-center">Comprehensive breakdown coverage on A roads and B roads across Merseyside and Lancashire.</p>
+               </div>
+            </div>
           </div>
           <Link to="/services" className="mt-12 inline-block bg-brand-red-600 text-white font-bold py-3 px-8 rounded-md hover:bg-brand-red-700 transition-colors">
             View All Services
