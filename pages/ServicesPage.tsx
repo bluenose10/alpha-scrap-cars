@@ -117,6 +117,7 @@ const ServicesPage: React.FC = () => {
             {servicesData.map((service, index) => (
               <div
                 key={index}
+                id={service.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and').replace(/\//g, '-')}
                 className="group relative overflow-hidden rounded-3xl border-2 border-brand-red-600/30 bg-white/80 p-10 shadow-xl shadow-gray-200/70 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50 via-transparent to-brand-red-100 opacity-0 transition-opacity duration-300 group-hover:opacity-80"></div>

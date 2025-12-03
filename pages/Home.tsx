@@ -80,6 +80,69 @@ const faqData = [
   }
 ];
 
+const homepageServices = [
+  {
+    title: '24-Hour Vehicle Recovery Southport',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+    description: 'Alpha Recovery provides round-the-clock emergency vehicle breakdown recovery services throughout Southport, Formby, Ormskirk, and surrounding Merseyside areas. Our fully trained Vehicle Recovery Operatives (VROs) respond within 30 minutes on average, equipped with satellite navigation and modern recovery equipment. Available 24/7, 365 days a year, we\'ll recover your vehicle to any UK destination safely and efficiently.',
+    features: [
+      'Average 30-minute response time across Southport & Merseyside',
+      'Fully trained VROs with professional equipment & ID',
+      'Recovery to any UK destination, day or night'
+    ],
+    link: '/services#24-hour-vehicle-recovery'
+  },
+  {
+    title: 'Motorway Breakdown Recovery',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+      </svg>
+    ),
+    description: 'Stranded on the motorway? Alpha Recovery specializes in fast-response motorway breakdown recovery across Lancashire and Merseyside. Our satellite-equipped recovery vehicles reach you quickly, removing your vehicle from dangerous situations safely. We handle all types of motorway breakdowns and accidents with a safety-first approach, ensuring rapid assistance when you need it most on high-speed roads throughout the region.',
+    features: [
+      'Rapid motorway response with GPS-tracked vehicles',
+      'Safety-certified motorway recovery procedures',
+      'Experience with M6, M58, and major Lancashire routes'
+    ],
+    link: '/services#motorway-accident-and-breakdown-recovery'
+  },
+  {
+    title: 'Secure Vehicle Storage & Rental',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+      </svg>
+    ),
+    description: 'Alpha Recovery offers competitive vehicle storage solutions in Southport for short-term and long-term needs. Our secure storage facilities accommodate all vehicle types, from everyday cars to commercial vehicles and specialized vehicles. Whether you need temporary storage during repairs, seasonal storage, or long-term solutions, our professional team provides flexible access and competitive rates with complete peace of mind for your vehicle\'s safety.',
+    features: [
+      'Secure facilities for all vehicle types & sizes',
+      'Flexible short-term and long-term storage options',
+      'Competitive pricing with professional management'
+    ],
+    link: '/services#vehicle-storage-and-rental'
+  },
+  {
+    title: 'Insurance Liaison & Coordination',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    ),
+    description: 'We work directly with your insurance company to streamline the claims process for breakdown recovery and salvage collection. Alpha Recovery\'s efficient insurance liaison service handles all coordination with insurers, making your experience stress-free during an already difficult time. From initial recovery to repair coordination or salvage, we manage the paperwork and communication, ensuring fast processing and excellent customer care throughout.',
+    features: [
+      'Direct coordination with major insurance providers',
+      'Fast claims processing and efficient salvage collection',
+      'Expert handling of all recovery-related paperwork'
+    ],
+    link: '/services#insurance-company-liaison'
+  }
+];
+
 const FaqAccordion: React.FC<{ faq: { question: string; answer: string }[]; }> = ({ faq }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -179,56 +242,43 @@ const Home: React.FC = () => {
       {/* Services Overview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker">24-Hour Breakdown Recovery Services</h2>
-          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Alpha  Vehicle Breakdown Recovery Service Southport offers 24-hour car breakdown recovery 7 days a week, 365 days a year. Our vehicles are equipped with satellite navigation so we can get to you in the quickest time possible 
-             and our average response time is within 30 minutes of the original call.</p>
-          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Alpha Car Breakdown Recovery Services Southport operates a broad fleet of different types of breakdown and recovery vehicles. We are a reliable, prompt, and specialized company and are well known throughout Merseyside and Lancashire. 
-                    </p> 
-           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-            {/* Service Item */}
-            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-              <div className="relative">
-                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker">Professional Vehicle Recovery Services Southport</h2>
+          <p className="mt-3 text-gray-600 max-w-4xl mx-auto">
+            Alpha Vehicle Breakdown Recovery Service Southport offers comprehensive 24-hour car breakdown recovery throughout Merseyside and Lancashire. Our vehicles are equipped with satellite navigation ensuring rapid response, with an average arrival time of 30 minutes.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
+            {homepageServices.map((service, index) => (
+              <div key={index} className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-8 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
+                <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                <div className="relative">
+                  <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
+                    {service.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-brand-darker mb-4 text-center">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed text-left mb-5">
+                    {service.description}
+                  </p>
+                  <ul className="space-y-2.5 mb-5">
+                    {service.features.map((feature, i) => (
+                      <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                        <svg className="h-5 w-5 text-brand-red-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <Link to={service.link} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-red-600 hover:text-brand-red-700 transition-all duration-200 group-hover:gap-2">
+                    Learn More
+                    <svg className="h-4 w-4 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
                 </div>
-                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">24-Hour Vehicle Recovery</h3>
-                <p className="text-gray-600 text-sm text-center">Round-the-clock emergency breakdown recovery services across Southport and surrounding areas.</p>
               </div>
-            </div>
-            {/* Service Item */}
-            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-              <div className="relative">
-                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
-                </div>
-                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">Motorway Recovery</h3>
-                <p className="text-gray-600 text-sm text-center">Fast response motorway recovery services with satellite navigation for quick assistance.</p>
-              </div>
-            </div>
-            {/* Service Item */}
-            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
-               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-               <div className="relative">
-                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
-                </div>
-                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">Vehicle Storage</h3>
-                <p className="text-gray-600 text-sm text-center">Long-term and short-term vehicle storage at competitive rates in secure facilities.</p>
-               </div>
-            </div>
-            {/* Service Item */}
-            <div className="group relative overflow-hidden rounded-2xl border-2 border-brand-red-600/30 bg-white p-6 shadow-lg shadow-gray-200/80 transition-all duration-300 hover:-translate-y-2 hover:border-brand-red-600/40">
-               <div className="absolute inset-0 bg-gradient-to-br from-brand-red-50/60 via-transparent to-brand-red-100/60 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-               <div className="relative">
-                <div className="flex items-center justify-center h-16 w-16 mx-auto mb-4 rounded-2xl bg-brand-red-50 text-brand-darker border border-brand-red-100 shadow-inner shadow-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                </div>
-                <h3 className="text-xl font-bold text-brand-darker mb-3 text-center">Insurance Liaison</h3>
-                <p className="text-gray-600 text-sm text-center">We work directly with insurance companies to coordinate repairs or salvage collection.</p>
-               </div>
-            </div>
+            ))}
           </div>
           <Link to="/services" className="mt-12 inline-block bg-brand-red-600 text-white font-bold py-3 px-8 rounded-md hover:bg-brand-red-700 transition-colors">
             View All Services
