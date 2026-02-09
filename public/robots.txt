@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://renkoremaps.netlify.app/sitemap.xml
+Sitemap: https://alpha-recoveries.co.uk/sitemap.xml
