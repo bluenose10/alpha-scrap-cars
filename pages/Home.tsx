@@ -22,15 +22,15 @@ const heroBackground = new URL('../assets/images/scrap-car-buyers-southport.JPG'
 
 const workshopGallery = [
   {
-    src: new URL('../assets/images/southport-scrap-car-buyers.jpg', import.meta.url).href,
+    src: new URL('../assets/images/southport-scrap-car-buyers.JPG', import.meta.url).href,
     alt: 'Scrap Car Collection Southport - Free Scrap Vehicle Collection',
   },
   {
-    src: new URL('../assets/images/cash-for-scrap-car-southport.jpg', import.meta.url).href,
+    src: new URL('../assets/images/cash-for-scrap-car-southport.JPG', import.meta.url).href,
     alt: 'Scrap Car Buyers Southport Merseyside - Best Prices Paid',
   },
   {
-    src: new URL('../assets/images/scrap-car-for-cash-southport.jpg', import.meta.url).href,
+    src: new URL('../assets/images/scrap-car-for-cash-southport.JPG', import.meta.url).href,
     alt: 'Cash For Scrap Cars Southport - Sell Your Scrap Vehicle',
   },
 ];
