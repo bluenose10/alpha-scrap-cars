@@ -8,7 +8,12 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(git pull:*)",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "Bash(cat:*)",
+      "Bash(git revert:*)",
+      "Bash(cd:*)",
+      "Bash(tree:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []

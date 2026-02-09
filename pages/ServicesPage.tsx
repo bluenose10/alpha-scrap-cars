@@ -5,100 +5,100 @@ import PageHero from '../components/PageHero';
 
 const servicesData: Service[] = [
   {
-    title: '24-Hour Vehicle Recovery',
-    description: 'Our core service. Round-the-clock emergency breakdown recovery services available 24/7, 365 days a year. Our fully trained Vehicle Recovery Operatives (VROs) will recover you and your vehicle to anywhere within the United Kingdom.',
+    title: 'Scrap Car Collection Southport',
+    description: 'Our core service. We offer free scrap car collection across Southport, Ormskirk, Preston and all surrounding Merseyside and Lancashire areas. We collect your scrap, damaged or unwanted vehicle at a time that suits you, and pay you the best price for it.',
     details: [
-      'Available 24 hours a day, 7 days a week',
-      'Average response time within 30 minutes',
-      'Satellite navigation equipped vehicles',
-      'Fully trained and ID carrying VROs',
-      'Recovery to any UK destination'
+      'Free collection within our service areas',
+      'Same day or next day collection available',
+      'We collect at a time convenient for you',
+      'All makes and models accepted',
+      'Cash or bank transfer payment on collection'
     ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" /></svg>
   },
   {
-    title: 'Off-Road Accident Recovery',
-    description: 'Specialized recovery for off-road accidents with professional vehicle handling. We coordinate with insurance companies for seamless service and handle all types of accident recovery situations with care and efficiency.',
+    title: 'Scrap My Car For Cash',
+    description: 'Get the best price for your scrap car in Southport. We offer competitive instant quotes with no hidden fees. The price we quote is the price you receive. No middleman — we are the end buyer, so you always get top dollar for your scrap vehicle.',
     details: [
-      'Professional vehicle handling and recovery',
-      'Insurance company coordination',
-      'Specialized equipment for difficult recoveries',
-      'Safe and damage-free vehicle transport',
-      'Expert team trained in accident recovery'
+      'Instant quotes via phone or online',
+      'Best prices paid for scrap vehicles',
+      'No hidden fees or deductions',
+      'Quotes guaranteed for 10 days',
+      'Payment within 24 hours via bank transfer'
+    ],
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+  },
+  {
+    title: 'Salvage Vehicle Collection',
+    description: 'We buy and collect all types of salvage vehicles across Southport and surrounding areas. Whether your car has been in an accident, failed its MOT, or is simply beyond economical repair, we will give you a fair price and collect it for free.',
+    details: [
+      'Accident damaged vehicles collected',
+      'MOT failures accepted',
+      'Vehicles beyond economical repair',
+      'Fair and competitive valuations',
+      'Free collection service included'
     ],
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
   },
   {
-    title: 'Vehicle Storage & Rental',
-    description: 'Long-term and short-term vehicle storage at competitive rates in safe, secure facilities. We offer flexible storage solutions for all vehicle types with easy access and professional service.',
+    title: 'DVLA Paperwork & Certificate of Destruction',
+    description: 'As a registered Authorized Treatment Facility (ATF), we handle all the DVLA paperwork for you. Every scrapped vehicle receives a Certificate of Destruction, giving you complete peace of mind that your vehicle has been legally and responsibly recycled.',
     details: [
-      'Long-term and short-term storage options',
-      'Safe and secure storage facilities',
-      'Competitive pricing',
-      'All vehicle types accommodated',
-      'Easy access and professional management'
+      'Full DVLA paperwork handled on your behalf',
+      'Certificate of Destruction issued for every vehicle',
+      'Registered Authorized Treatment Facility (ATF)',
+      'Legal recycling in line with environmental guidelines',
+      'Complete peace of mind and compliance'
     ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
   },
   {
-    title: 'Insurance Company Liaison',
-    description: 'We work directly with your insurance company to coordinate repairs or salvage collection. Our efficient service makes the claims process smooth and stress-free, with fast turnaround times.',
+    title: 'Sell Your Old Vehicle',
+    description: 'Got an old, unwanted vehicle taking up space? We buy all types of old vehicles regardless of condition. Whether it runs or not, we will give you a competitive quote and arrange free collection at your convenience.',
     details: [
-      'Direct coordination with insurance companies',
-      'Fast and efficient claims processing',
-      'Professional salvage collection',
-      'Repair coordination services',
-      'Stress-free experience for customers'
+      'Running or non-running vehicles accepted',
+      'Any age, make, or model considered',
+      'No obligation free quotes',
+      'Hassle-free process from start to finish',
+      'We come to you — no need to bring the vehicle to us'
     ],
     icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
   },
   {
-    title: '24-Hour Vehicle Locksmith Service',
-    description: 'Emergency locksmith services available 24/7. Get back into your vehicle quickly with our professional locksmith team. We handle all types of vehicle lockouts with minimal disruption.',
+    title: 'Commercial Vehicle Scrap',
+    description: 'We don\'t just buy scrap cars — we also offer great quotes for commercial vehicles including vans, trucks, and fleet vehicles. If you have a commercial vehicle that needs scrapping, contact us for a competitive quote.',
     details: [
-      'Available 24 hours a day',
-      'Quick response times',
-      'Professional locksmith team',
-      'All vehicle types covered',
-      'Non-destructive entry methods'
+      'Vans, trucks, and commercial vehicles accepted',
+      'Fleet vehicle disposal available',
+      'Competitive quotes for all commercial vehicles',
+      'Free collection for commercial vehicles',
+      'All paperwork handled professionally'
     ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" /></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
   },
   {
-    title: 'Transport for Classic/Vintage Cars',
-    description: 'Specialized transportation for classic and vintage vehicles. Expert handling ensures your prized possession arrives safely at its destination. We understand the value and care required for collectible vehicles.',
+    title: 'Scrap Car Valuation Southport',
+    description: 'Get an instant scrap car valuation by calling or texting your registration number to us. Our quotes are provided by humans, not computers, meaning we take more into account and can often offer you a better price than automated online services.',
     details: [
-      'Specialized handling for classic vehicles',
-      'Expert team with vintage car experience',
-      'Safe and secure transportation',
-      'Climate-controlled options available',
-      'Door-to-door delivery service'
+      'Human-generated quotes, not computer algorithms',
+      'Call or text your registration number for a fast response',
+      'Accurate valuations based on current scrap prices',
+      'No obligation — get your quote and decide in your own time',
+      'Quotes guaranteed for 10 days'
     ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
   },
   {
-    title: 'Motorway Accident & Breakdown Recovery',
-    description: 'Fast response motorway recovery services with satellite navigation ensuring we reach you in the quickest time possible. Specialized in handling motorway breakdowns and accidents safely and efficiently.',
+    title: 'Vehicle Breakdown Recovery',
+    description: 'Alongside our scrap car buying service, we also offer 24-hour vehicle breakdown recovery across Southport and surrounding areas. If your vehicle has broken down and you decide it\'s not worth repairing, we can offer you a scrap price on the spot.',
     details: [
-      'Fast motorway response service',
-      'Satellite navigation equipped vehicles',
-      'Safety-first approach to motorway recovery',
-      'Experienced in high-speed road recovery',
-      'Quick removal from dangerous situations'
+      '24/7 breakdown recovery available',
+      'Serving Southport, Ormskirk, Preston and surrounding areas',
+      'Option to scrap your broken-down vehicle on the spot',
+      'Professional and friendly recovery operatives',
+      'Fast response times across the region'
     ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
-  },
-  {
-    title: 'A & B Road Accident & Breakdown Recovery',
-    description: 'Comprehensive coverage on A roads and B roads across Merseyside and surrounding areas. Quick response guaranteed with our efficient dispatch system and experienced recovery team.',
-    details: [
-      'Coverage across all A and B roads',
-      'Merseyside and Lancashire coverage',
-      'Quick response times guaranteed',
-      'Experienced recovery team',
-      'Professional and courteous service'
-    ],
-    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-brand-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
   }
 ];
 
@@ -108,7 +108,7 @@ const ServicesPage: React.FC = () => {
       <PageHero
         eyebrow="Services"
         title="Our Services"
-        subtitle="Comprehensive vehicle breakdown and recovery services across Southport and surrounding areas. Available 24/7, 365 days a year."
+        subtitle="Comprehensive scrap car collection and buying services across Southport, Merseyside and Lancashire. Best prices paid with free collection."
       />
 
       <main className="py-20 bg-white">

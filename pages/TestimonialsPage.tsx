@@ -20,47 +20,47 @@ const StarRating = ({ rating }: { rating: number }) => (
 
 const testimonialsData: Testimonial[] = [
     {
-        quote: "Absolutely fantastic service! Had a breakdown late at night and they arrived within 30 minutes. Professional, friendly, and got me sorted out quickly. Would highly recommend Alpha Recoveries to anyone.",
-        name: 'John Davies',
+        quote: "Really fast with no hassle. Got a great price for my old car and they collected it the same day. Would use this service again.",
+        name: 'Adam Jones',
         car: 'Southport'
     },
     {
-        quote: "Cannot recommend Alpha Recoveries enough. Their service is exceptional and the team really know what they're doing. Genuine experts who care about their customers.",
+        quote: "I thought they were very professional and very polite. They handled all the paperwork and paid me on the spot. Excellent service from start to finish.",
+        name: 'Jane Ball',
+        car: 'Ormskirk'
+    },
+    {
+        quote: "Excellent prompt efficient service. Fully recommend. Best price I was quoted from any scrap car buyer in the area. They turned up when they said they would.",
+        name: 'Mike Unsworth',
+        car: 'Preston'
+    },
+    {
+        quote: "Called up for a quote and they gave me a really fair price. Collection was arranged for the next day and they paid me straight away. Couldn't ask for more.",
         name: 'Sarah Mitchell',
         car: 'Formby'
     },
     {
-        quote: "First class service from start to finish. Called them out for a flat battery and they were there in no time. Professional team who really know their stuff.",
-        name: 'Emma Richardson',
-        car: 'Ainsdale'
-    },
-    {
-        quote: "Outstanding breakdown assistance service! Quick, efficient, and great value. Saved me when I needed it most. The driver was courteous and professional throughout.",
-        name: 'Michael Thompson',
-        car: 'Ormskirk'
-    },
-    {
-        quote: "Very impressed with the service I received. Professional, friendly, and reasonably priced. They took great care of my vehicle and kept me informed throughout. Highly recommended.",
-        name: 'Lisa Anderson',
-        car: 'Crosby'
-    },
-    {
-        quote: "Excellent recovery service. My car broke down on the motorway and they responded incredibly quickly. The whole process was smooth and stress-free. Thank you Alpha!",
+        quote: "Very impressed with how easy the whole process was. One phone call, got a quote, they came and collected the car and handed over the cash. Simple as that.",
         name: 'David Wilson',
         car: 'Birkdale'
     },
     {
-        quote: "Brilliant service! Had a puncture late at night and they came out quickly to help. The technician was professional and got me back on the road safely. Will definitely use again.",
+        quote: "Had an old car sitting on the drive for months. Called Alpha Recovery and they sorted everything out quickly. Great price and they handled all the DVLA paperwork too.",
+        name: 'Lisa Anderson',
+        car: 'Crosby'
+    },
+    {
+        quote: "Brilliant service! My car failed its MOT and wasn't worth repairing. Alpha gave me a much better price than other scrap dealers I contacted. Highly recommended.",
         name: 'Robert Brown',
         car: 'Southport'
     },
     {
-        quote: "Alpha Recoveries saved the day when my car wouldn't start. Quick response, professional service, and fair pricing. Really appreciate their help and would recommend to anyone.",
+        quote: "Professional, honest, and fair. They were upfront about the price from the start and there were no hidden fees or last-minute reductions. Will definitely recommend to friends.",
         name: 'Jennifer Clarke',
         car: 'Formby'
     },
     {
-        quote: "Top-notch breakdown recovery service. They were efficient, professional, and very reasonably priced. The driver was friendly and explained everything clearly. Excellent experience overall.",
+        quote: "Top-notch scrap car service. They collected my old van and paid a great price for it. The driver was friendly and the whole thing took less than 20 minutes. Excellent experience.",
         name: 'Mark Stevens',
         car: 'Ormskirk'
     }
@@ -71,8 +71,8 @@ const TestimonialsPage: React.FC = () => {
         <div className="animate-fadeIn">
             <PageHero
               eyebrow="Testimonials"
-              title="Customer Testimonials"
-              subtitle="Don't just take our word for it - read what our satisfied customers have to say about our breakdown recovery services."
+              title="Customer Reviews"
+              subtitle="Don't just take our word for it — read what our satisfied customers have to say about our scrap car buying service in Southport."
             />
 
             <main className="py-20 bg-white">

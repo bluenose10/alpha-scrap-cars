@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
         <PageHero
           eyebrow="Contact"
           title="Contact Us"
-          subtitle="Get in touch for emergency assistance or a free quote. We're here 24/7 to help."
+          subtitle="Get in touch for a free scrap car quote. Call, text your registration, or use the form below."
         />
 
         <main className="py-20 bg-white">
@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
                          <p className="text-xs uppercase tracking-[0.35em] text-brand-red-500/70">Information</p>
                          <h2 className="text-3xl font-bold text-brand-darker mb-6">Get In Touch</h2>
                          <p className="mb-6 leading-relaxed text-gray-600">
-                            Need immediate assistance? Call us now for 24/7 emergency breakdown recovery. For non-urgent enquiries, use the contact form or reach out via email.
+                            Want to scrap your car for cash? Call or text your car registration number for an instant quote. For non-urgent enquiries, use the contact form or reach out via email.
                          </p>
                          <ul className="space-y-5">
                             <li className="flex items-start rounded-2xl border-2 border-brand-red-600/30/70 p-4 bg-gray-50/80">
@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                                 <div>
                                     <h3 className="font-semibold text-brand-darker">Phone</h3>
                                     <a href="tel:07908714163" className="text-brand-red-600 hover:text-brand-red-700">07908 714163</a>
-                                    <p className="text-xs text-gray-500 mt-1">24/7 Emergency Line</p>
+                                    <p className="text-xs text-gray-500 mt-1">Call or text your reg for a quote</p>
                                 </div>
                             </li>
                              <li className="flex items-start rounded-2xl border-2 border-brand-red-600/30/70 p-4 bg-gray-50/80">

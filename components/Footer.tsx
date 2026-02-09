@@ -13,18 +13,18 @@ const Footer: React.FC = () => {
             <Link to="/" className="flex items-center gap-3">
               <img
                 src={logo}
-                alt="Alpha Recovery Southport"
+                alt="Scrap Car Buyers Southport - Alpha Recovery"
                 width="40"
                 height="40"
                 className="h-10 w-auto object-contain"
               />
               <div className="sr-only">
                 <h1>Alpha Recovery</h1>
-                <p>Southport Vehicle Breakdown Recovery</p>
+                <p>Scrap Car Buyers Southport</p>
               </div>
             </Link>
             <p className="text-sm">
-              Professional 24/7 vehicle breakdown recovery service in Southport. Swift and low cost car breakdown recovery solutions across Merseyside.
+              Licensed scrap car buyers in Southport. Best prices paid for scrap and salvage vehicles with free collection across Southport, Merseyside and Lancashire.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Alpha Recovery. All Rights Reserved.</p>
-          <p className="text-xs text-gray-400 mt-2">Professional 24/7 vehicle breakdown recovery in Southport | Merseyside and Lancashire</p>
+          <p className="text-xs text-gray-400 mt-2">Scrap Car Buyers Southport | Cash For Scrap Cars | Merseyside and Lancashire</p>
         </div>
       </div>
     </footer>

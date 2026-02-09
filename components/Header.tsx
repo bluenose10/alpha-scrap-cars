@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-const logo = new URL('../assets/images/car-breakdown-recovery-services-southport.webp', import.meta.url).href;
+const logo = new URL('../assets/images/scrap-car-buyer-southport.webp', import.meta.url).href;
 
 const NavLinks = ({ isMobile, closeMenu }: { isMobile?: boolean, closeMenu?: () => void }) => {
   const links = [
@@ -50,14 +50,14 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
               <img
                 src={logo}
-                alt="Vehicle Breakdown Recovery Southport"
+                alt="Scrap Car Buyers Southport"
                 width="40"
                 height="40"
                 className="h-10 w-auto object-contain"
               />
             <div className="sr-only">
-              <h1>Alpha Recoveries</h1>
-              <p>Vehicle Breakdown Recovery Southport</p>
+              <h1>Alpha Recovery</h1>
+              <p>Scrap Car Buyers Southport</p>
             </div>
           </Link>
 

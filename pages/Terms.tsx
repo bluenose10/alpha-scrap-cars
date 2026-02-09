@@ -9,7 +9,7 @@ const Terms: React.FC = () => {
         <div className="pointer-events-none absolute -top-20 -right-10 h-72 w-72 rounded-full bg-brand-red-600/25 blur-[110px] animate-float"></div>
         <div className="pointer-events-none absolute bottom-0 left-0 h-64 w-64 -translate-x-8 translate-y-12 rounded-full bg-brand-red-500/20 blur-[130px] animate-pulse-glow"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-5">
-          <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-wide text-brand-red-600">
+          <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-wide text-white">
             Terms of Service
           </h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">

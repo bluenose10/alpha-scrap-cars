@@ -17,7 +17,7 @@ const PageHero: React.FC<PageHeroProps> = ({ title, subtitle, eyebrow }) => {
         {eyebrow && (
           <p className="text-xs uppercase tracking-[0.4em] text-white/60">{eyebrow}</p>
         )}
-        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-wide text-brand-red-600">
+        <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-wide text-white">
           {title}
         </h1>
         <p className="text-lg text-white/80 max-w-2xl mx-auto">
